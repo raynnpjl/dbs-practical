@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT COALESCE(hourly_rate, NULL)) AS "Number of different hourly rate" from staff;

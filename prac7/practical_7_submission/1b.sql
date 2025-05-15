@@ -1,0 +1,1 @@
+SELECT AVG(COALESCE(crse_fee, 0) + COALESCE(lab_fee, 0)) AS "Mean Total Fee" FROM course;

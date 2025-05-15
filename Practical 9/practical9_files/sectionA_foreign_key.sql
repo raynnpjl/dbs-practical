@@ -1,0 +1,1 @@
+ALTER TABLE staff ADD CONSTRAINT staff_dept_code_fk FOREIGN KEY (dept_code) REFERENCES department(dept_code)

@@ -1,0 +1,1 @@
+SELECT sum(pay) + sum(allowance) AS "sum(pay) + sum(allowance)", sum(pay + allowance) AS " sum(pay + allowance)" FROM staff;
